@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/backend/red_css/normalize.css">
     <link rel="stylesheet" href="/backend/red_css/styles_dashboard.css">
-    <title>DashBoard</title>
 </head>
 
 <body>
@@ -71,6 +70,7 @@
         <div id="div-menu" class="logo-menu"></div>
         <div id="user" class="user"></div>
         <div id="user_menu" class="hidden_user_menu shadow hidden_all">
+            <div class="user_options"><p><a class="link" href="/backend/dashBoard.php">Dashboard</a></p></div>
             <div class="user_options"><p><a class="link" href="/backend/red_sites/profile.php">Perfil</a></p></div>
             <div class="user_options"><p><a class="link" href="/backend/red_sites/setup.php">Opciones</a></p></div>
             <hr class="user_options_hr">

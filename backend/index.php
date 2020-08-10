@@ -28,8 +28,8 @@
 
             </div>
             <div class="bot_line">
-                <input type="password" name="password" placeholder="Password"  value="<?php if(isset($_COOKIE['contraseña'])){
-                    echo $_COOKIE['contraseña'];
+                <input type="password" name="password" placeholder="Password"  value="<?php if(isset($_COOKIE['password'])){
+                    echo $_COOKIE['password'];
                 } ?>"><span class="line"></span>
             
             </div>
